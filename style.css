@@ -1,0 +1,42 @@
+body{
+  align-items: center;
+  background-image: url("./Bioeconomia-e-a-Amazônia.jpg") !important;
+  background-attachment: fixed;
+}
+.logo{
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: rgb(72, 255, 0);
+  text-decoration: solid;
+}
+.logo-pai{
+  position: relative;
+
+}
+.carousel-item{
+  max-width: 630px;
+  max-height: 630px;
+  align-items: center;
+}
+.carousel-inner{
+  max-width: 800px;
+  max-height: 800px;
+}
+.card{
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 548px;
+}
+h6{
+  font-weight: 700 !important;
+}
+.pai{
+  display: grid;
+  grid-template-areas: 
+  "h6 h6 h6"
+  "texto texto img"
+  "texto texto texto";
+}
